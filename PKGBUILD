@@ -1,15 +1,14 @@
 pkgname=physfs
-pkgver=2.0.3
-pkgrel=2
+pkgver=3.0.2
+pkgrel=1
 pkgdesc="A library to provide abstract access to various archives"
 arch=('x86_64')
 url="http://icculus.org/physfs/"
-license=('ZLIB')
+license=('zlib')
 depends=('zlib')
 makedepends=('cmake' 'doxygen')
-#makedepends=('cmake')
 source=("http://icculus.org/physfs/downloads/${pkgname}-${pkgver}.tar.bz2")
-sha1sums=('327308c777009a41bbabb9159b18c4c0ac069537')
+sha256sums=('304df76206d633df5360e738b138c94e82ccf086e50ba84f456d3f8432f9f863')
 
 build() {
 	mkdir build
